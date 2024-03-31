@@ -97,3 +97,4 @@
 2024-03-29 22:20:02,047	ERROR	An error occurred: 该空间当前状态不可预约
 2024-03-30 22:01:22,546	ERROR	An error occurred: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
 2024-03-30 22:20:27,143	INFO	预约成功<br/>您已违约2次,详情请登录web端或联系管理员
+2024-03-31 22:00:11,713	INFO	预约成功<br/>您已违约2次,详情请登录web端或联系管理员
