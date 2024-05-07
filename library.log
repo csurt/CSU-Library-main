@@ -208,3 +208,5 @@
 2024-05-05 22:21:11,273	ERROR	An error occurred: 该空间当前状态不可预约
 2024-05-06 22:00:36,120	ERROR	An error occurred: 'access_token'
 2024-05-06 22:21:05,488	ERROR	An error occurred: 'access_token'
+2024-05-07 16:11:25,830	INFO	预约失败，最新一天的系统开始预约时间为：06:00
+2024-05-07 16:11:25,831	ERROR	An error occurred: 预约失败，最新一天的系统开始预约时间为：06:00
