@@ -58,7 +58,7 @@ class CSULibrary(object):
         self.password = password
         self.client = requests.Session()
         config = configparser.ConfigParser()
-        config.read('config.ini')
+        config.read('config1.ini')
         self.campus = eval(config["DATABASE"]["CAMPUS"])
         seat_data = pandas.read_csv(self.campus + '座位表.csv')
         self.seatno = eval(config["DATABASE"]["SEAT"])
@@ -166,7 +166,7 @@ if __name__ == "__main__":
     args = parser.parse_args()
 
     LOG_FORMAT = "%(asctime)s\t%(levelname)s\t%(message)s"
-    logging.basicConfig(filename='library.log',
+    logging.basicConfig(filename='library1.log',
                         level=logging.INFO, format=LOG_FORMAT)
 
     helper = CSULibrary(args.userid, args.password)
