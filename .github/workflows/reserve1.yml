@@ -33,7 +33,7 @@ jobs:
         git config --global user.email founder.yu@foxmail.com
         git config --global user.name founder-yu
         git add .
-        git commit -m "Update library.log" -a
+        git commit -m "Update library1.log" -a
     - name: Push changes
       uses: ad-m/github-push-action@master
       with:
